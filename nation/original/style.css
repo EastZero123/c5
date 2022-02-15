@@ -1,0 +1,32 @@
+#greece_container, #greece_footer{
+    background-color: rgb(172, 241, 241);
+}
+
+#germany_container, #germany_footer{
+    background-color:#9e9e9e81;
+}
+
+#rome_container, #rome_footer{
+    background-color:#aa47bca4
+}
+
+
+#russia_container, #russia_footer{
+    background-color:#fbc12dd5
+}
+
+#usa_container, #usa_footer{
+    background-color:#220f79d2
+}
+
+ #usa_container, #usa_footer{
+    color:white
+}
+
+#song_container, #song_footer{
+    background-color:#d47210ee;
+}
+
+#siam_container, #siam_footer{
+    background-color:#fff176;
+}
