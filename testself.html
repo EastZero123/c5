@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="my_form" method="get">
+
+          <label for="buy" required="on">구매 유무 : </label>
+        <input type="checkbox" id="input_check" name="buy" value="1"><br><br>
+
+        <label for="name">이름</label>
+        <input type="text"
+                id="name" name="name"
+                autocomplete="off" placeholder="본인 이름">
+                <br><br>
+        <!-- 자동완성을 추가해보고싶다 --> 
+        
+        <label for="nation">선호 국가</label>
+        <input type="text"
+                id="nation" name="nation"
+                autocomplete="off" placeholder="국가 이름">
+        <br><br>
+        <label for="leader">지도자</label>
+        <input type="text"
+                id="leader" name="leader"
+                autocomplete="off" placeholder="지도자 이름">
+        <br><br>
+        <label for="playtime">플레이 시간 선택하기</label><br>
+        <input type="radio" id="10시간 미만" name="playtime" value="low time">
+    10시간미만<br>
+        <input type="radio" id="10시간~100미만" name="playtime" value="middle time">
+    10시간~100시간<br>
+        <input type="radio" id="100시간~1000시간" name="playtime" value="high time">
+    100시간~1000시간<br>
+        <input type="radio" id="1000시간~" name="playtime" value="master time">
+    1000시간~<br><br>
+
+    선호하는 속도 <input type="range" name="range" min="0" max="3"><br><br> 
+        
+    
+    <label for="level">가능한 난이도</label><br>
+        <input type="checkbox" id="avail_veryeasy" name="level" value="veryeasy" checked>
+    개척자<br>
+        <input type="checkbox" id="avail_easy" name="level" value="easy">
+    족장<br>
+        <input type="checkbox" id="avail_normaleasy" name="level" value="normaleasy">
+    대장군<br>
+        <input type="checkbox" id="avail_normal" name="level" value="normal">
+    왕자<br>
+        <input type="checkbox" id="avail_normalhard" name="level" value="normalhard">
+    왕<br>
+        <input type="checkbox" id="avail_hard" name="level" value="hard">
+    황제<br>
+        <input type="checkbox" id="avail_hardhard" name="level" value="hardhard">
+    불멸자<br>
+        <input type="checkbox" id="avail_veryhard" name="level" value="veryhard">
+    신<br>
+        <br><br>
+    <button>완료</button>
+
+    </form>
+</body>
+</html>
