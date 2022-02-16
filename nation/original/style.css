@@ -30,3 +30,16 @@
 #siam_container, #siam_footer{
     background-color:#fff176;
 }
+
+#arab_container, #arab_footer{
+    background-color: #104d13ce;
+}
+
+#aztek_container, #aztek_footer{
+    background-color: #d84215e1;
+}
+
+#eng_container, #eng_footer{
+    color:white; background-color: #9f0000dc;
+}
+
