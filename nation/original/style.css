@@ -43,3 +43,10 @@
     color:white; background-color: #9f0000dc;
 }
 
+#otto_container, #otto_footer{
+    background-color: #dcedc8;
+}
+
+#iro_container, #iro_footer{
+    background-color: #aeaeae;
+}
