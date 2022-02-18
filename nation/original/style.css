@@ -21,11 +21,8 @@
 }
 
 #usa_container, #usa_footer{
-    background-color:#220f79d2
-}
-
- #usa_container, #usa_footer{
-    color:white
+    background-color:#220f79d2;
+    color: white;    
 }
 
 #song_container, #song_footer{
@@ -71,3 +68,9 @@
 #chi2, #chi3{
     background-color: #80e27e;
 }
+
+#per2, #per3{
+    background-color: #d50000;
+    color: rgba(255, 255, 255, 0.897);
+}
+
