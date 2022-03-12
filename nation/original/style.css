@@ -1,79 +1,155 @@
-#banner{
-    background-color: grey; 
-    color: black; position:fixed; bottom:5px; right:10px;
+#banner {
+    background-color: grey;
+    color: black;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
 }
 
-#greece_container, #greece_footer{
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn_icon {
+    font-family: 'Material Icons';
+}
+
+.dropbtn {
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    font-weight: 400;
+    color: rgb(37, 37, 37);
+    padding: 12px;
+    width: 200px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    /*다른 요소들보다 앞에 배치*/
+    font-weight: 400;
+    background-color: #f9f9f9;
+    min-width: 200px;
+}
+
+.dropdown-content a {
+    display: block;
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    padding: 12px 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ececec
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#footer {
+    font-size: 0.5em;
+}
+
+#greece_container,
+#greece_footer {
     background-color: rgb(172, 241, 241);
 }
 
-#germany_container, #germany_footer{
-    background-color:#9e9e9e81;
+#germany_container,
+#germany_footer {
+    background-color: #9e9e9e81;
 }
 
-#rome_container, #rome_footer{
-    background-color:#aa47bca4
+#rome_container,
+#rome_footer {
+    background-color: #aa47bca4
 }
 
 
-#russia_container, #russia_footer{
-    background-color:#fbc12dd5
+#russia_container,
+#russia_footer {
+    background-color: #fbc12dd5
 }
 
-#usa_container, #usa_footer{
-    background-color:#220f79d2;
-    color: white;    
+#usa_container,
+#usa_footer {
+    background-color: #220f79d2;
+    color: white;
 }
 
-#song_container, #song_footer{
-    background-color:#d47210ee;
+#song_container,
+#song_footer {
+    background-color: #d47210ee;
 }
 
-#siam_container, #siam_footer{
-    background-color:#fff176;
+#siam_container,
+#siam_footer {
+    background-color: #fff176;
 }
 
-#arab_container, #arab_footer{
+#arab_container,
+#arab_footer {
     background-color: #104d13ce;
 }
 
-#aztek_container, #aztek_footer{
+#aztek_container,
+#aztek_footer {
     background-color: #d84215e1;
 }
 
-#eng_container, #eng_footer{
-    color:white; background-color: #9f0000dc;
+#eng_container,
+#eng_footer {
+    color: white;
+    background-color: #9f0000dc;
 }
 
-#otto_container, #otto_footer{
+#otto_container,
+#otto_footer {
     background-color: #dcedc8;
 }
 
-#iro_container, #iro_footer{
+#iro_container,
+#iro_footer {
     background-color: #aeaeae;
 }
 
-#egy_container, #egy_footer{
+#egy_container,
+#egy_footer {
     background-color: #fdd835;
 }
 
-#india_container, #india_footer{
+#india_container,
+#india_footer {
     background-color: #4caf50;
 }
 
-#jap_container, #jap_footer{
+#jap_container,
+#jap_footer {
     background-color: #e9e9e9e1;
 }
 
-#chi2, #chi3{
+#chi2,
+#chi3 {
     background-color: #80e27e;
 }
 
-#per2, #per3{
+#per2,
+#per3 {
     background-color: #d50000;
     color: rgba(255, 255, 255, 0.897);
 }
 
-#fra2, #fra3{
+#fra2,
+#fra3 {
     background-color: #67daff;
 }
